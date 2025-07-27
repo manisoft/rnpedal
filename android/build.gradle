@@ -19,3 +19,12 @@ buildscript {
 }
 
 apply plugin: "com.facebook.react.rootproject"
+
+allprojects {
+    subprojects { project ->
+        def androidExt = project.extensions.findByName('android')
+        if (androidExt != null) {
+            androidExt.ndkVersion = "27.1.12297006"
+        }
+    }
+}

@@ -10,9 +10,19 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "@react-native/new-app-screen": "0.80.2",
+    "@react-navigation/native": "^7.1.15",
+    "@react-navigation/stack": "^7.4.3",
+    "@supabase/supabase-js": "^2.52.1",
     "react": "19.1.0",
     "react-native": "0.80.2",
-    "@react-native/new-app-screen": "0.80.2"
+    "react-native-geolocation-service": "^5.3.1",
+    "react-native-gesture-handler": "^2.27.2",
+    "react-native-maps": "^1.24.10",
+    "react-native-safe-area-context": "^5.5.2",
+    "react-native-screens": "^4.13.1",
+    "react-native-url-polyfill": "^2.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
